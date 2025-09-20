@@ -1,0 +1,30 @@
+# FastAPI and Web Server
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6  # For file uploads
+
+# PowerPoint Generation Requirements
+python-pptx>=0.6.21
+Pillow>=8.0.0  # Optional: for creating sample images in demo
+
+# Voice Recognition Requirements
+speechrecognition>=3.10.0
+pyaudio>=0.2.11  # For microphone access
+pyttsx3>=2.90  # Text-to-speech for voice feedback
+
+# AI Integration Requirements
+google-generativeai>=0.3.0  # Gemini AI integration
+python-dotenv>=1.0.0  # Environment variable management
+
+# Logging and Configuration
+colorlog>=6.7.0  # Colored logging output
+# Configuration and validation
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# System monitoring and utilities
+psutil>=5.9.0  # System information
+
+# Additional audio processing (optional alternatives)
+# whisper>=1.1.10  # OpenAI Whisper for better accuracy (optional)
+# torch>=2.0.0  # Required for local Whisper (optional)
